@@ -1,0 +1,13 @@
+<!ENTITY dialog_title "Task in Taskwarrior">
+<!ENTITY buttonlabelcancel "Cancel">
+<!ENTITY buttonlabelaccept "Create Task">
+<!ENTITY dialog_header "Task in Taskwarrior ...">
+<!ENTITY dialog_description "Create a new task in Taskwarrior.">
+<!ENTITY details.caption "Task Details">
+<!ENTITY details.description_label "Description">
+<!ENTITY details.description "Mail Subject ...">
+<!ENTITY details.annotation_label "Annotation">
+<!ENTITY details.annotation "Mail Body ...">
+<!ENTITY details.annotate_label "Add Annotation">
+<!ENTITY details.tag_label "Tag/Context">
+<!ENTITY details.due_label "Due at ...">

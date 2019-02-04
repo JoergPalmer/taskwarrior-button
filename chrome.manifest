@@ -1,0 +1,6 @@
+content taskwarrior chrome/content/
+
+locale taskwarrior en-US chrome/locale/en-US/
+locale taskwarrior de-DE chrome/locale/de-DE/
+
+overlay chrome://messenger/content/messenger.xul chrome://taskwarrior/content/overlay.xul

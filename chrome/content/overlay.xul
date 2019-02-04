@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="chrome://taskwarrior/content/button.css"?>
+
+<overlay id="taskwarrior-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://taskwarrior/content/overlay.js"/>
+
+  <toolbarpalette id="header-view-toolbar-palette">
+    <toolbarbutton 
+        id="taskwarrior-button"
+        accesskey="W"
+        label="Taskwarrior"
+        tooltiptext="Create a task from this e-mail"
+        oncommand="window.open('chrome://taskwarrior/content/taskwarrior-data-dialog.xul', 'details_dialog', 'chrome,modal,centerscreen,resizable,width=600')"
+        class="toolbarbutton-1 msgHeaderView-button taskwarrior"
+      />
+  </toolbarpalette>
+
+</overlay>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>taskwarrior@extensions.thunderbird.net</em:id>
+    <em:name>Taskwarrior Button</em:name>
+    <em:version>0.1</em:version>
+    <em:creator>Jörg Palmer</em:creator>
+    <em:iconURL>chrome://taskwarrior/content/icon.png</em:iconURL>
+    <em:homepageURL>https://taskwarrior.org/</em:homepageURL>
+    <em:type>2</em:type>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>60.0</em:minVersion>
+        <em:maxVersion>65.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:description>Non-official thunderbird addon for Taskwarrior. This addon adds a toolbar button to the message view window. Using this button lets you easily transform a mail message into a task for Taskwarrior.</em:description>
+
+  </Description>
+</RDF>

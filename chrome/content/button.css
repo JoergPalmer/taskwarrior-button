@@ -1,0 +1,12 @@
+#taskwarrior-button, #wrapper-taskwarrior-button {
+    list-style-image: url("chrome://taskwarrior/content/button.png");
+}
+
+/* CSS reference: rect(top, left, bottom, right) */
+.taskwarrior {
+    -moz-image-region: rect( 0px 24px 24px  0px);
+}
+
+[iconsize="small"] .taskwarrior {
+    -moz-image-region: rect( 0px 40px 16px 24px);
+}
